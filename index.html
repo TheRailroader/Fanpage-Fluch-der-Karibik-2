@@ -5,98 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fluch der Karibik 2 – Fanpage</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1e1e1e;
-            color: white;
-            margin: 0;
-            padding: 0;
-        }
+    <!-- ERSETZE DEN KOMPLETTEN HEADER + NAVIGATION + CSS MIT DIESEM CODE -->
 
-        header {
-            background-color: #111;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 4px solid #c49b3d;
-        }
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #111;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
 
-        header h1 {
-            margin: 0;
-            color: #f5d27a;
-        }
+    header {
+        background-color: #111;
+        padding: 20px;
+    }
 
-        nav {
-            background-color: #2a2a2a;
-            padding: 10px;
-            text-align: center;
-        }
+    header h1 {
+        color: #f5d27a;
+        margin-bottom: 10px;
+    }
 
-        nav a {
-            color: #f5d27a;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
+    .info-text {
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
-        section {
-            padding: 25px;
-        }
+    section {
+        padding: 25px;
+    }
 
-        h2 {
-            color: #f5d27a;
-            border-bottom: 2px solid #c49b3d;
-            padding-bottom: 5px;
-        }
+    h2 {
+        color: #f5d27a;
+        margin-bottom: 20px;
+    }
 
-        .charaktere {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
+    .charaktere {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 
-        .karte {
-            background-color: #2f2f2f;
-            border-radius: 10px;
-            width: 250px;
-            padding: 15px;
-            box-shadow: 0 0 10px black;
-        }
+    .karte {
+        width: 220px;
+    }
 
-        .karte img {
-            width: 100%;
-            border-radius: 8px;
-        }
+    .karte img {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+    }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
+    .karte h3 {
+        margin-top: 10px;
+        color: white;
+    }
 
-        table, th, td {
-            border: 1px solid #888;
-        }
+    .karte p {
+        line-height: 1.4;
+    }
 
-        th {
-            background-color: #444;
-            color: #f5d27a;
-        }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
 
-        th, td {
-            padding: 12px;
-            text-align: left;
-        }
+    table, th, td {
+        border: 1px solid #666;
+    }
 
-        footer {
-            background-color: #111;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-            border-top: 4px solid #c49b3d;
-        }
-    </style>
-</head>
+    th {
+        background-color: #333;
+        color: #f5d27a;
+    }
+
+    th, td {
+        padding: 12px;
+        text-align: left;
+    }
+
+    footer {
+        background-color: #111;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
+</style>
+
+<header>
+    <h1>Fluch der Karibik 2 – Dead Man's Chest</h1>
+
+    <p class="info-text">
+        Hier kommt man zu Charakteren, Handlung, Steckbrief und Cast & Crew.
+    </p>
+</header>
 
 <body>
 
@@ -104,14 +108,6 @@
     <h1>Fluch der Karibik 2 – Dead Man's Chest</h1>
     <p>Fanpage zum berühmten Piratenfilm</p>
 </header>
-
-<nav>
-    <a href="#steckbrief">Steckbrief</a>
-    <a href="#handlung">Handlung</a>
-    <a href="#charaktere">Charaktere</a>
-    <a href="#episoden">Filminfo</a>
-    <a href="#cast">Cast & Crew</a>
-</nav>
 
 <section id="steckbrief">
     <h2>Steckbrief</h2>
@@ -212,26 +208,6 @@
     </div>
 </section>
 
-<section id="episoden">
-    <h2>Filminfo</h2>
-
-    <table>
-        <tr>
-            <th>Teil</th>
-            <th>Laufzeit</th>
-            <th>Kurzinfo</th>
-        </tr>
-
-        <tr>
-            <td>Fluch der Karibik 2</td>
-            <td>151 Minuten</td>
-            <td>
-                Jack Sparrow sucht nach der geheimnisvollen Truhe des Davy Jones,
-                um seine Freiheit zu retten.
-            </td>
-        </tr>
-    </table>
-</section>
 
 <section id="cast">
     <h2>Cast & Crew</h2>
