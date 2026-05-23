@@ -3,113 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Fluch der Karibik 2 – Fanpage</title>
 
-    <!-- ERSETZE DEN KOMPLETTEN HEADER + NAVIGATION + CSS MIT DIESEM CODE -->
+    <style>
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #111;
-        color: white;
-        margin: 0;
-        padding: 0;
-    }
+        body{
+            background-color:#111;
+            color:white;
+            font-family:Arial, sans-serif;
+            margin:0;
+            padding:0;
+        }
 
-    header {
-        background-color: #111;
-        padding: 20px;
-    }
+        header{
+            padding:25px;
+        }
 
-    header h1 {
-        color: #f5d27a;
-        margin-bottom: 10px;
-    }
+        .navigation{
+            font-size:28px;
+            margin-bottom:40px;
+        }
 
-    .info-text {
-        font-size: 22px;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
+        .navigation a{
+            color:white;
+            text-decoration:none;
+            font-weight:bold;
+        }
 
-    section {
-        padding: 25px;
-    }
+        .navigation a:hover{
+            color:#d6b25e;
+        }
 
-    h2 {
-        color: #f5d27a;
-        margin-bottom: 20px;
-    }
+        section{
+            padding:25px;
+        }
 
-    .charaktere {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-    }
+        h2{
+            font-size:50px;
+            margin-bottom:20px;
+        }
 
-    .karte {
-        width: 220px;
-    }
+        ul{
+            font-size:20px;
+        }
 
-    .karte img {
-        width: 100%;
-        height: 260px;
-        object-fit: cover;
-    }
+        p{
+            font-size:20px;
+            line-height:1.5;
+        }
 
-    .karte h3 {
-        margin-top: 10px;
-        color: white;
-    }
+        .charaktere{
+            display:flex;
+            flex-wrap:wrap;
+            gap:30px;
+        }
 
-    .karte p {
-        line-height: 1.4;
-    }
+        .karte{
+            width:250px;
+        }
 
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 15px;
-    }
+        .karte img{
+            width:250px;
+            height:180px;
+            object-fit:cover;
+        }
 
-    table, th, td {
-        border: 1px solid #666;
-    }
+        .karte h3{
+            margin-top:10px;
+            margin-bottom:10px;
+            font-size:22px;
+        }
 
-    th {
-        background-color: #333;
-        color: #f5d27a;
-    }
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+            font-size:20px;
+        }
 
-    th, td {
-        padding: 12px;
-        text-align: left;
-    }
+        th, td{
+            border:1px solid white;
+            padding:12px;
+            text-align:left;
+        }
 
-    footer {
-        background-color: #111;
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-    }
-</style>
+        footer{
+            text-align:center;
+            padding:25px;
+            margin-top:40px;
+        }
 
-<header>
-    <h1>Fluch der Karibik 2 – Dead Man's Chest</h1>
+    </style>
 
-    <p class="info-text">
-        Hier kommt man zu Charakteren, Handlung, Steckbrief und Cast & Crew.
-    </p>
-</header>
+</head>
 
 <body>
 
 <header>
-    <h1>Fluch der Karibik 2 – Dead Man's Chest</h1>
-    <p>Fanpage zum berühmten Piratenfilm</p>
+
+    <div class="navigation">
+        Hier kommt man zu 
+        <a href="#charaktere">Charakteren</a>, 
+        <a href="#handlung">Handlung</a>, 
+        <a href="#steckbrief">Steckbrief</a> 
+        und 
+        <a href="#cast">Cast & Crew</a>.
+    </div>
+
 </header>
 
 <section id="steckbrief">
+
     <h2>Steckbrief</h2>
 
     <ul>
@@ -121,9 +126,11 @@
         <li><strong>Produzent:</strong> Jerry Bruckheimer</li>
         <li><strong>Laufzeit:</strong> 151 Minuten</li>
     </ul>
+
 </section>
 
 <section id="handlung">
+
     <h2>Handlungszusammenfassung</h2>
 
     <p>
@@ -133,18 +140,20 @@
         Auf ihrer Reise treffen sie auf gefährliche Kreaturen, geheimnisvolle Inseln
         und kämpfen um eine legendäre Truhe mit großem Geheimnis.
     </p>
+
 </section>
 
-<!-- ERSETZE DEN GESAMTEN BEREICH "Hauptcharaktere" MIT DIESEM CODE -->
-
 <section id="charaktere">
+
     <h2>Hauptcharaktere</h2>
 
     <div class="charaktere">
 
         <div class="karte">
             <img src="https://static.wikia.nocookie.net/fdk/images/8/81/Shot-pirates-of-the-caribbean-dead-mans-chest.jpg/revision/latest?cb=20130727211421&path-prefix=de" alt="Jack Sparrow">
+
             <h3>Captain Jack Sparrow</h3>
+
             <p>
                 Ein chaotischer, aber genialer Piratenkapitän,
                 der versucht seiner Schuld bei Davy Jones zu entkommen.
@@ -153,7 +162,9 @@
 
         <div class="karte">
             <img src="https://static.wikia.nocookie.net/fdk/images/5/5c/Bill_and_Will.jpg/revision/latest?cb=20170722210502&path-prefix=de" alt="Will Turner">
+
             <h3>Will Turner</h3>
+
             <p>
                 Ein mutiger Kämpfer und talentierter Schmied,
                 der alles für Elizabeth riskieren würde.
@@ -162,7 +173,9 @@
 
         <div class="karte">
             <img src="https://static.wikia.nocookie.net/fdk/images/1/1d/Lizzy_.jpg/revision/latest?cb=20180323211137&path-prefix=de" alt="Elizabeth Swann">
+
             <h3>Elizabeth Swann</h3>
+
             <p>
                 Eine intelligente und entschlossene Frau,
                 die immer tiefer in die Welt der Piraten hineingezogen wird.
@@ -171,7 +184,9 @@
 
         <div class="karte">
             <img src="https://static.wikia.nocookie.net/fdk/images/c/c5/IMG_jones.jpg/revision/latest?cb=20180311163536&path-prefix=de" alt="Davy Jones">
+
             <h3>Davy Jones</h3>
+
             <p>
                 Der gefürchtete Kapitän der Flying Dutchman,
                 der die sieben Meere terrorisiert.
@@ -180,7 +195,9 @@
 
         <div class="karte">
             <img src="https://static.wikia.nocookie.net/pirates/images/9/96/Beckettconfrontswill.jpg/revision/latest/scale-to-width-down/1000?cb=20130324044706" alt="Cutler Beckett">
+
             <h3>Lord Cutler Beckett</h3>
+
             <p>
                 Ein mächtiger Vertreter der East India Trading Company,
                 der die Piraterie endgültig vernichten möchte.
@@ -189,7 +206,9 @@
 
         <div class="karte">
             <img src="https://static.wikia.nocookie.net/fdk/images/1/10/GibbsAWE.png/revision/latest/scale-to-width-down/1000?cb=20180207211555&path-prefix=de" alt="Joshamee Gibbs">
+
             <h3>Joshamee Gibbs</h3>
+
             <p>
                 Jacks treuer Freund und erfahrener Seemann,
                 der sich bestens mit Piratenlegenden auskennt.
@@ -198,7 +217,9 @@
 
         <div class="karte">
             <img src="https://static.wikia.nocookie.net/fdk/images/5/5b/Disgraced-james-norrington-portrait.png/revision/latest?cb=20251012123353&path-prefix=de" alt="James Norrington">
+
             <h3>James Norrington</h3>
+
             <p>
                 Ein ehemaliger Commodore der Royal Navy,
                 der nach seinem Karriereverlust seinen eigenen Weg sucht.
@@ -206,13 +227,15 @@
         </div>
 
     </div>
+
 </section>
 
-
 <section id="cast">
+
     <h2>Cast & Crew</h2>
 
     <table>
+
         <tr>
             <th>Schauspieler</th>
             <th>Rolle</th>
@@ -239,14 +262,28 @@
         </tr>
 
         <tr>
+            <td>Tom Hollander</td>
+            <td>Lord Cutler Beckett</td>
+        </tr>
+
+        <tr>
+            <td>Kevin McNally</td>
+            <td>Joshamee Gibbs</td>
+        </tr>
+
+        <tr>
             <td>Jack Davenport</td>
             <td>James Norrington</td>
         </tr>
+
     </table>
+
 </section>
 
 <footer>
-    <p>© 2026 Fanpage zu Fluch der Karibik 2 Images from https://fluch-der-karibik.fandom.com/wiki/Fluch_der_Karibik_Wiki.</p>
+
+    <p>© 2026 Fluch der Karibik 2 Fanpage</p>
+
 </footer>
 
 </body>
